@@ -12,12 +12,6 @@ Este proyecto en C# es un ejemplo de estudio que realiza web scraping para obten
 
 - **Actualización Manual y Automática**: Permite recargar los datos manualmente desde un botón y automáticamente cada 10 minutos mediante un temporizador.
 
-## Estructura del Proyecto
-
-- **Clima.cs**: Contiene la lógica principal del formulario de Windows Forms.
-- **WebBrowser.cs**: Proporciona el control WebBrowser necesario para la navegación web.
-- **IDEVStudioUI.dll**: Biblioteca que posiblemente contiene controles personalizados para la interfaz de usuario.
-
 Aviso
 Este proyecto es puramente educativo y de estudio. El web scraping puede violar los términos de servicio de algunos sitios web. Asegúrate de revisar y cumplir con las políticas de uso de cualquier sitio web que desees raspar.
 
