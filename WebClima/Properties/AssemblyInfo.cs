@@ -8,10 +8,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WebClima")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("DEVSOHFTT")]
 [assembly: AssemblyProduct("WebClima")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("DEVSOHFTT")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 

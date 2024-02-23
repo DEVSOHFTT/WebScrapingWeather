@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.lblZona = new System.Windows.Forms.Label();
             this.lblGrados = new System.Windows.Forms.Label();
             this.lblDetalles = new System.Windows.Forms.Label();
@@ -177,8 +178,10 @@
             this.Controls.Add(this.lblZona);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
             this.Text = "Clima";
+            this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picClima)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
